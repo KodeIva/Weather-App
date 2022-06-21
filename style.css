@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body {
+ background:rgb(101, 176, 241);
+ color: white;
+}
+div {
+ margin: 20px 10px;
+}
+img {
+ width: 250px;
+}
+.container {
+ background: rgba(247, 239, 239, 0.1);
+ width: 480px;
+ height: auto;
+ margin: 0 auto;
+ position: fixed;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%,-50%);
+ padding-top: 30px;
+ border-radius: 10px;
+ border: 5px solid rgba(247, 239, 239, 0.1);
+}
+.details {
+ margin: 0 auto;
+ width: 95%;
+ display: flex;
+ flex-direction: column; 
+ align-items: center;
+}
+.inputs {
+ margin: 10px auto;
+ width: 90%;
+ height: 45px;
+ display: flex;
+ justify-content: space-between;
+}
+input {
+ width: 85%;
+ font-size: 20px;
+ text-indent: 5px;
+ color: white;
+ outline: none;
+ border: none;
+ border-bottom: 1px solid white;
+ background: transparent;
+
+}
+
+::placeholder {
+  font-family: 'Montserrat', sans-serif;
+   color: white;
+   font-size: 20px;
+   font-weight: 200;
+
+}
+button {
+ width: 25%;
+ cursor: pointer;
+ font-size: 40px;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 400;
+ outline: none;
+ border: none;
+ background: transparent;
+ color: white;
+}
+.city-country {
+ width: 80%;
+ font-size: 22px;
+ display: flex;
+ justify-content: center;
+ font-family: 'Montserrat', sans-serif;
+}
+.weather-icon {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+ width: 90%;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 500;
+ line-height: 35px;
+}
+.temp {
+  font-size: 40px;
+}
+.description {
+  font-size: 20px;
+}
+.other {
+ width: 50%;
+ line-height: 25px;
+ font-size: 20px;
+ font-weight: 500;
+ font-family: 'Montserrat', sans-serif;
+ display: flex;
+ flex-direction: column;
+ justify-content:  center;
+ align-items: center;
+}
